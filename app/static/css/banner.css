@@ -14,19 +14,13 @@ a {
 }
 .qf-banner {
     position: relative;
-    width: 390px;
-    height: 500px;
+    width: 440px;
+    height: 480px;
     margin: 0 auto;
     overflow: hidden;
 }
-p{
-    line-height: 18px;
-    font-size: 16px;
-    color: darkgray;
-}
-span{
-    font-size: 24px;
-}
+
+
 
 .banner-inner {
     position: absolute;
@@ -39,7 +33,7 @@ span{
     float: left;
 }
 .banner-inner li ul{
-    width: 390px;
+    width: 440px;
     height: 480px;
 }
 .banner-inner li ul>li{
@@ -49,6 +43,10 @@ span{
     width: 387px;
     height: 166px;
 }
+.banner-inner li ul>li:nth-child(2) img{
+    width: 129px;
+    height: 90px;
+}
 .banner-inner li ul>li:nth-child(3) img{
     width: 129px;
     height: 90px;
@@ -57,21 +55,11 @@ span{
     width: 129px;
     height: 90px;
 }
-.banner-inner li ul>li:nth-child(5) img{
-    width: 129px;
-    height: 90px;
-}
-.banner-inner li ul div{
-    
-}
-
-
-
 
 .banner-tip {
     position: absolute;
-    bottom: 162px;
-    right: 164px; 
+    bottom: 8px;
+    right: 240px; 
 }
 .banner-tip li {
     display: inline-block;
@@ -85,28 +73,25 @@ span{
 .banner-tip li.active {
     opacity: 1;
 }
-
-
-
 .left-btn, .right-btn {
     position: absolute;
     top: 50%;
     margin-top: -23px;
-    width: 30px;
-    height: 64px;
+    width: 35px;
+    height: 46px;
     opacity: 0;
 }
 .left-btn {
-    left: 0px;
-    background: url(../image/btn_03.jpg);
+    left: 25px;
+    background: url(../image/left1.png);
 }
 .right-btn {
-    right: 0px;
-    background: url(../image/btn_05.jpg);
+    right: 25px;
+    background: url(../image/right1.png);
 }
- .left-btn:hover{
-    background:url(../image/rig_03.jpg);
+.left-btn:hover{
+    background:url(../image/left2.png);
 }
 .right-btn:hover{
-    background:url(../image/rig_05.jpg);
-} 
+    background:url(../image/right2.png);
+}

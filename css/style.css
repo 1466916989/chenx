@@ -1,0 +1,8 @@
+ ul.rt_li{float:left;width:1230px;height:614px; }
+ul.rt_li li{float:left; width:236px;height:300px;margin-left:13px;
+	background:#fff;text-align:center;margin-bottom:14px;}
+#pd_match ul.rt_li li img{margin:20px auto;}
+#pd_match ul.rt_li li span{ display:block;margin:16px auto;}
+#pd_match ul.rt_li li span s{padding-left:8px;color:#B0B0B0;}
+#pd_match ul.rt_li li>div{ height:140px;margin-bottom:10px;} 
+#pd_match ul.rt_li li>div span,h3{margin:0;padding-top:40px;}
